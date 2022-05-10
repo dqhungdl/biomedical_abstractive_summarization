@@ -1,7 +1,7 @@
 # Improving Biomedical Multi-document Abstractive Summarization
 
 ## Overview
-This repository contains implementations and data of my Graduation Thesis named **Improving Biomedical Multi-document Abstractive Summarization with Syntax Tree Pruning and Generative Pre-Training Adaptation**. The proposed abstractive summarization model shown in the following Figure, includes four components, which are:
+This repository contains implementations and data of my Graduation Thesis named **Improving Biomedical Multi-document Abstractive Summarization with Syntax Tree Pruning and Generative Pre-Training Adaptation**. The proposed abstractive summarization model shown in the following Figure, includes four components which are:
 * Pre-processing
 * Adaptive BART
 * Syntax Tree Pruning
@@ -11,7 +11,7 @@ This repository contains implementations and data of my Graduation Thesis named 
 
 ## Structure of the Repository
 The structure of the repository is presented as:
-* `data`: datasets, export results of above-mentioned components.
+* `data`: datasets, export results of the above-mentioned components.
 * `run_scripts`: useful scripts for evaluation, training, testing, statisticizing and visualizing.
 * `extractive_summarization`: simple implementations based on [our previous work](https://aclanthology.org/2021.bionlp-1.36/) of the extractive summarization model.
 * `bart` and `pegasus`: implementations of the Adaptive BART and PEGASUS models.
@@ -26,8 +26,8 @@ Besides the dependencies listed in the `requirements.txt`, there are some other 
 
 ## Results
 Evaluation metrics:
-* `ROUGE`: compare the **exact-matched** similarity between two documents.
-* `BERTScore`: compare the **semantic-based** similarity between two documents.
+* `ROUGE`: measure the **exact-matched** similarity between two documents.
+* `BERTScore`: measure the **semantic-based** similarity between two documents.
 
 Some main results are exported in `data`, in detail:
 * `Bart/Test_Bart.txt` is the Adaptive BART's result.
