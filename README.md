@@ -1,12 +1,15 @@
 # Improving Biomedical Multi-document Abstractive Summarization
 
 ## Overview
-This repository contains implementations and data of my Graduation Thesis named **Improving Biomedical Multi-document Abstractive Summarization with Syntax Tree Pruning and Generative Pre-Training Adaptation**. The proposed abstractive summarization model includes four components, which are:
+This repository contains implementations and data of my Graduation Thesis named **Improving Biomedical Multi-document Abstractive Summarization with Syntax Tree Pruning and Generative Pre-Training Adaptation**. The proposed abstractive summarization model shown in the following Figure, includes four components, which are:
 * Pre-processing
 * Adaptive BART
 * Syntax Tree Pruning
 * Post-processing
 
+![](./data/Visualizations/overview_model.png)
+
+## Structure of the Repository
 The structure of the repository is presented as:
 * `data`: datasets, export results of above-mentioned components.
 * `run_scripts`: useful scripts for evaluation, training, testing, statisticizing and visualizing.
