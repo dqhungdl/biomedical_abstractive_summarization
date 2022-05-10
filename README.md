@@ -7,7 +7,7 @@ This repository contains implementations and data of my Graduation Thesis named 
 * Syntax Tree Pruning
 * Post-processing
 
-![](./data/Visualizations/overview_model.png)
+<img src="./data/Visualizations/overview_model.png" width="600" height="800">
 
 ## Structure of the Repository
 The structure of the repository is presented as:
