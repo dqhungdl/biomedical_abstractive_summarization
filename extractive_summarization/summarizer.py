@@ -1,6 +1,6 @@
 import logging
 
-from extract_summarization.scores import TfidfScorer, LexrankScorer, KeywordsScorer, QueryBasedScorer
+from extractive_summarization.scores import TfidfScorer, LexrankScorer, KeywordsScorer, QueryBasedScorer
 from utils.evaluation import evaluate_rouge
 from utils.pre_processing import TextSegmentator
 

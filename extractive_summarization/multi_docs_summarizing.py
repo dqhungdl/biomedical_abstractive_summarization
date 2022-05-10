@@ -1,7 +1,7 @@
 import logging
 import os
 
-from extract_summarization.summarizer import Summarizer
+from extractive_summarization.summarizer import Summarizer
 from utils.data_loader import DataLoader
 
 os.chdir('..')
